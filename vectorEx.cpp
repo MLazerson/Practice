@@ -2,7 +2,7 @@
 #include <iostream>
 #include <vector>
 // read file
-void readFile(std::vector<double> & vec, std::string fname) {
+void readFile(std::vector<double> & vec, const std::string fname) {
   double temp = 0;
     // open file
     std::ifstream infile;
